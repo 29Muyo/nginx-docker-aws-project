@@ -36,12 +36,12 @@ This project demonstrates how to deploy a static website on AWS using Docker and
 
 ## Step by Step Setup
 
-### 1. Launch EC2 Instance
+1.  **Launch EC2 Instance:**
 - Log into AWS Console
 - Launch Ubuntu EC2 instance
 - Connect via SSH
 
-### 2. Install Docker
+2.  **Install Docker:**
 ```bash
 sudo apt-get update
 sudo apt-get install docker.io
