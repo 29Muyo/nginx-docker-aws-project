@@ -27,6 +27,7 @@ This project demonstrates how to deploy a static website on AWS using Docker and
 ### **Architecture Diagram**
 
 
+
 ### **Prerequisites**
 - AWS Account
 - EC2 Instance running Ubuntu
@@ -75,19 +76,5 @@ docker run -d -p 80:80 my-website
 - Copy your EC2 Public IP
 - Open in browser
 
-## Errors I Encountered and How I Fixed Them
-
-
-## Screenshots
-
-
-## What I Learned
-
-
-## Author
-Kathleen Muyoni
-- LinkedIn:
-- Medium: 
-- Hashnode: 
   
 
