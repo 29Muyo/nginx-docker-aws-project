@@ -25,8 +25,10 @@ This project demonstrates how to deploy a static website on AWS using Docker and
 ---
 
 ### **Architecture Diagram**
+
 ![Architecture Diagram](docker.drawio.png)
 
+---
 
 ### **Prerequisites**
 - AWS Account
