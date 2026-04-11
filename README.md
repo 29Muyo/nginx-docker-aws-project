@@ -7,7 +7,7 @@
 
 ### **Table of Contents**
 1. [Project Overview](#project-overview)
-2. ![Architecture Diagram](Docker.drawio.png)
+2. ![Architecture Diagram](#docker.drawio.png)
 3. [Prerequisites](#prerequisites)
 4. [Step 1: Launch EC2 Instance](#step-1-launch-ec2-instance)
 5. [Step 2: Install Docker](#step-2-install-docker)
@@ -25,7 +25,7 @@ This project demonstrates how to deploy a static website on AWS using Docker and
 ---
 
 ### **Architecture Diagram**
-
+![Architecture Diagram](#docker.drawio.png)
 
 
 ### **Prerequisites**
