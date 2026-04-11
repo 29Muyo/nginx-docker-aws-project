@@ -1,4 +1,11 @@
-## Deploying a Website on Nginx Server using Docker on AWS
+# Deploying a Website on Nginx Server using Docker on AWS
+
+**Author:** Kathleen Muyoni
+**Date:** April 12, 2026
+
+---
+
+### **Table of Contents**
 
 ## What This Project Does
 A step by step deployment of a static website using Nginx as the web server, containerised with Docker, and hosted on an AWS EC2 instance.
