@@ -9,7 +9,7 @@
 1. [Project Overview](#project-overview)
 2. ![Architecture Diagram](#docker.drawio.png)
 3. [Prerequisites](#prerequisites)
-4. [Step 1: Launch EC2 Instance](#step-1-launch-ec2-instance)
+4. [Step 1: Clone Website from Github](#step1github.com/DolfinED-HoLabs)
 5. [Step 2: Install Docker](#step-2-install-docker)
 6. [Step 3: Clone Website Files](#step-3-clone-website-files)
 7. [Step 4: Write the Dockerfile](#step-4-write-the-dockerfile)
@@ -38,7 +38,7 @@ This project demonstrates how to deploy a static website on AWS using Docker and
 
 ## Step by Step Setup
 
-1.  **Launch EC2 Instance:**
+1.  **Clone Website from GitHub:**
 - Log into AWS Console
 - Launch Ubuntu EC2 instance
 - Connect via SSH
