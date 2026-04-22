@@ -10,7 +10,7 @@
 2. ![Architecture Diagram](#docker.drawio.png)
 3. [Prerequisites](#prerequisites)
 4. [Step 1: Clone Website from Github](#step-1-clone-website-from-github)
-5. [Step 2: Install Docker](#step-2-install-docker)
+5. [Step 2: Create Docker File](#step-2-create-docker-file)
 6. [Step 3: Clone Website Files](#step-3-clone-website-files)
 7. [Step 4: Write the Dockerfile](#step-4-write-the-dockerfile)
 8. [Step 5: Build Docker Image](#step-5-build-docker-image)
@@ -44,9 +44,10 @@ Clone the project from this repository:
 
 ![Clone Repository](images/clone-repo.png)
 
-3.  **Install Docker:**
-    sudo apt-get update
-sudo apt-get install docker.io
+### 2. Create Docker File
+Create the file inside the Docker-Capstone-Project1 Directory
+
+![Create Docker File]()
 
 
 ### 3. Pull Nginx Image
