@@ -47,7 +47,7 @@ Clone the project from this repository:
 ### 2. Create Docker File
 Create the file inside the Docker-Capstone-Project1 Directory
 
-![Create Docker File]()
+![Create Docker File](images/nanofile.png)
 
 
 ### 3. Pull Nginx Image
