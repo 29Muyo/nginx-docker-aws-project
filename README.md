@@ -38,7 +38,7 @@ This project demonstrates how to deploy a static website on AWS using Docker and
 
 ## Step by Step Setup
 
-1.  **Clone Website from GitHub:**
+### 1. Clone Website from GitHub
 Clone the project from this repository:
 [DolfinED HoLabs](https://github.com/DolfinED-HoLabs)
 
