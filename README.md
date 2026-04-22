@@ -42,7 +42,7 @@ This project demonstrates how to deploy a static website on AWS using Docker and
 Clone the project from this repository:
 [DolfinED HoLabs](https://github.com/DolfinED-HoLabs)
 
-! [Clone Website]( )
+! [Clone Website](images/clone-repo.png)
 
 3.  **Install Docker:**
     sudo apt-get update
