@@ -11,7 +11,7 @@
 3. [Prerequisites](#prerequisites)
 4. [Step 1: Clone Website from Github](#step-1-clone-website-from-github)
 5. [Step 2: Create Docker File](#step-2-create-docker-file)
-6. [Step 3: Clone Website Files](#step-3-clone-website-files)
+6. [Step 3: Build Webschool Image](#step-3-build-webschool-image)
 7. [Step 4: Write the Dockerfile](#step-4-write-the-dockerfile)
 8. [Step 5: Build Docker Image](#step-5-build-docker-image)
 9. [Step 6: Run the Container](#step-6-run-the-container)
@@ -50,10 +50,10 @@ Create the file inside the Docker-Capstone-Project1 Directory
 ![Create Docker File](images/nanofile.png)
 
 
-### 3. Pull Nginx Image
-```bash
-docker pull nginx
-```
+### 3. Build Webschool Image
+Use this command: docker build -t webschool
+
+![Build Webschool Image]()
 
 ### 4. Create Your Website Files
 - Create your HTML file
