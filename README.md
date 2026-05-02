@@ -12,7 +12,7 @@
 4. [Step 1: Clone Website from Github](#step-1-clone-website-from-github)
 5. [Step 2: Create Docker File](#step-2-create-docker-file)
 6. [Step 3: Build Webschool Image](#step-3-build-webschool-image)
-7. [Step 4: Write the Dockerfile](#step-4-write-the-dockerfile)
+7. [Step 4: Containerize School Template](#step-4-containerize-school-template)
 8. [Step 5: Build Docker Image](#step-5-build-docker-image)
 9. [Step 6: Run the Container](#step-6-run-the-container)
 10. [Step 7: Access the Website](#step-7-access-the-website)
@@ -55,9 +55,13 @@ Use this command: docker build -t webschool
 
 ![Build Webschool Image](images/webschool-image.png)
 
-### 4. Create Your Website Files
-- Create your HTML file
-- Add your content
+### 4. Containerize School Template
+To check if the School Website is live
+Run: docker run -d --rm -p 80:80 --name webschool webschool
+Copy your Public IP address in the browser to check the website
+
+![Containerize School Template]()
+
 
 ### 5. Write Your Dockerfile
 ```dockerfile
