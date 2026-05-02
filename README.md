@@ -13,7 +13,7 @@
 5. [Step 2: Create Docker File](#step-2-create-docker-file)
 6. [Step 3: Build Webschool Image](#step-3-build-webschool-image)
 7. [Step 4: Containerize School Template](#step-4-containerize-school-template)
-8. [Step 5: Build Docker Image](#step-5-build-docker-image)
+8. [Step 5: Push Docker Image To Docker Hub](#step-5-push-docker-image-to-docker-hub)
 9. [Step 6: Run the Container](#step-6-run-the-container)
 10. [Step 7: Access the Website](#step-7-access-the-website)
 
@@ -62,8 +62,8 @@ To check if the School Website is live, Run: docker run -d --rm -p 80:80 --name 
 ![Containerize School Template](images/shelly-website.png)
 
 
-### 5. Write Your Dockerfile
-```dockerfile
+### 5. Push Docker Image To Docker Hub
+Run: docker tag docker push 
 FROM nginx
 COPY index.html /usr/share/nginx/html/
 ```
