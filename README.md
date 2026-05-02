@@ -63,10 +63,15 @@ To check if the School Website is live, Run: docker run -d --rm -p 80:80 --name 
 
 
 ### 5. Push Docker Image To Docker Hub
-Run: docker tag docker push 
-FROM nginx
-COPY index.html /usr/share/nginx/html/
-```
+Run: docker tag webschool muyoni/schoolwebv1:v1 from your Docker hub account to tag and later push.
+     docker images to get the version1 ready to be pushed
+     docker login
+     docker push muyoni/schoolwebv1:v1(The repository from my Docker hub account)
+     
+![Push Docker Image To Docker Hub]()
+
+Check Docker Hub for the versions pushed.
+![]()
 
 ### 6. Build Your Image
 ```bash
