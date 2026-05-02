@@ -53,7 +53,7 @@ Create the file inside the Docker-Capstone-Project1 Directory
 ### 3. Build Webschool Image
 Use this command: docker build -t webschool
 
-![Build Webschool Image]()
+![Build Webschool Image](images/webschool-image.png)
 
 ### 4. Create Your Website Files
 - Create your HTML file
