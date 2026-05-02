@@ -14,8 +14,6 @@
 6. [Step 3: Build Webschool Image](#step-3-build-webschool-image)
 7. [Step 4: Containerize School Template](#step-4-containerize-school-template)
 8. [Step 5: Push Docker Image To Docker Hub](#step-5-push-docker-image-to-docker-hub)
-9. [Step 6: Run the Container](#step-6-run-the-container)
-10. [Step 7: Access the Website](#step-7-access-the-website)
 
 ---
 
@@ -59,6 +57,7 @@ Use this command: docker build -t webschool
 To check if the School Website is live, Run: docker run -d --rm -p 80:80 --name webschool webschool. Copy your Public IP address in the browser to check the website
 
 ![Containerize School Template](images/public-ip-and-container.png)
+
 ![Containerize School Template](images/shelly-website.png)
 
 
@@ -72,25 +71,10 @@ Run: docker tag webschool muyoni/schoolwebv1:v1 from your Docker hub account to 
      
 ![Push Docker Image To Docker Hub](images/pushed-to-docker-hub.png)
 
-
 Check Docker Hub for the versions pushed.
-
 
 ![Updated Image Versions](images/updated-versions-check.png)
 
-### 6. Build Your Image
-```bash
-docker build -t my-website .
-```
-
-### 7. Run Your Container
-```bash
-docker run -d -p 80:80 my-website
-```
-
-### 8. Access Your Website
-- Copy your EC2 Public IP
-- Open in browser
 
   
 
