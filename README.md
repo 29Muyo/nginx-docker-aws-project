@@ -7,7 +7,7 @@
 
 ### **Table of Contents**
 1. [Project Overview](#project-overview)
-2. ![Architecture Diagram](#docker.drawio.png)
+2. [Architecture Diagram](#docker.drawio.png)
 3. [Prerequisites](#prerequisites)
 4. [Step 1: Clone Website from Github](#step-1-clone-website-from-github)
 5. [Step 2: Create Docker File](#step-2-create-docker-file)
@@ -26,7 +26,7 @@ This project demonstrates how to deploy a static website on AWS using Docker and
 
 ### **Architecture Diagram**
 
-![Architecture Diagram](docker.drawio.png)
+[Architecture Diagram](docker.drawio.png)
 
 ---
 
