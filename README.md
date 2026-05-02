@@ -60,6 +60,7 @@ To check if the School Website is live
 Run: docker run -d --rm -p 80:80 --name webschool webschool
 Copy your Public IP address in the browser to check the website
 
+![Containerize School Template](images/public-ip-and-container.png)
 ![Containerize School Template]()
 
 
